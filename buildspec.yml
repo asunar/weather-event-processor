@@ -4,7 +4,7 @@ phases:
   pre_build:
     commands:
       - dotnet clean
-      - dotnet build
+      - dotnet build -c Release
   build:
     commands:
       # dotnet test command builds the solution and runs a test host application for each test project in the solution.
