@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - dotnet restore
+  build:
+    commands:
+      - dotnet build
+      - sam validate  
+      - sam build
