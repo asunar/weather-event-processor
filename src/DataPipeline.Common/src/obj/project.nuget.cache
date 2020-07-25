@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TEj288io5y8xtvXikgoHndaSbhanR61bd3pqq2assGAY6t1Lg0qNc6W+y0vKHCiA9yl5vpSn4RptoHUMBmQ6og==",
+  "dgSpecHash": "+Nzo4QOCOYNGW9mHd6iX3x96nS5SW4mWtXp/25SdpZnMjT1/3Xu2a60OsMccqmqxWhnk80bfKZj1Ru+2Ap6LWA==",
   "success": true,
-  "projectFilePath": "C:\\code\\weather-processor\\src\\DataPipeline.Common\\src\\DataPipeline.Common.csproj",
+  "projectFilePath": "C:\\code\\weather-event-processor\\src\\DataPipeline.Common\\src\\DataPipeline.Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

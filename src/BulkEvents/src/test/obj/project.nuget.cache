@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dlfdc7niHi3btGKOcNC/v3ThYQHh/oLHUgv0RYiGYImOKdko6Ro//S21aaDKynIBm51FnVNFZUGZcyTKLXJ88A==",
+  "dgSpecHash": "LmkzCHyVDmgmIlRJjnxZ5NM4Dk8duRDsAZb4Xn+IKBqCM837Pa9q3kpevEFqdRMcSPXU9tFwyF33KZiDs+MGTQ==",
   "success": true,
-  "projectFilePath": "C:\\code\\programming-aws-lambda-dotnet\\chapter6\\src\\BulkEvents\\src\\test\\BulkEvents.Tests.csproj",
+  "projectFilePath": "C:\\code\\weather-event-processor\\src\\BulkEvents\\src\\test\\BulkEvents.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sunara\\.nuget\\packages\\amazon.lambda.core\\1.1.0\\amazon.lambda.core.1.1.0.nupkg.sha512",
     "C:\\Users\\sunara\\.nuget\\packages\\amazon.lambda.s3events\\1.1.0\\amazon.lambda.s3events.1.1.0.nupkg.sha512",

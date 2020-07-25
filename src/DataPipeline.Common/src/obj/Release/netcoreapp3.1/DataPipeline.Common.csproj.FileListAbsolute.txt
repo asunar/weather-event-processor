@@ -22,3 +22,12 @@ C:\code\weather-processor\src\DataPipeline.Common\src\obj\Release\netcoreapp3.1\
 C:\code\weather-processor\src\DataPipeline.Common\src\obj\Release\netcoreapp3.1\DataPipeline.Common.dll
 C:\code\weather-processor\src\DataPipeline.Common\src\obj\Release\netcoreapp3.1\DataPipeline.Common.pdb
 C:\code\weather-processor\src\DataPipeline.Common\src\obj\Release\netcoreapp3.1\DataPipeline.Common.genruntimeconfig.cache
+C:\code\weather-event-processor\src\DataPipeline.Common\src\bin\Release\netcoreapp3.1\DataPipeline.Common.deps.json
+C:\code\weather-event-processor\src\DataPipeline.Common\src\bin\Release\netcoreapp3.1\DataPipeline.Common.dll
+C:\code\weather-event-processor\src\DataPipeline.Common\src\bin\Release\netcoreapp3.1\DataPipeline.Common.pdb
+C:\code\weather-event-processor\src\DataPipeline.Common\src\obj\Release\netcoreapp3.1\DataPipeline.Common.csprojAssemblyReference.cache
+C:\code\weather-event-processor\src\DataPipeline.Common\src\obj\Release\netcoreapp3.1\DataPipeline.Common.csproj.CoreCompileInputs.cache
+C:\code\weather-event-processor\src\DataPipeline.Common\src\obj\Release\netcoreapp3.1\DataPipeline.Common.AssemblyInfoInputs.cache
+C:\code\weather-event-processor\src\DataPipeline.Common\src\obj\Release\netcoreapp3.1\DataPipeline.Common.AssemblyInfo.cs
+C:\code\weather-event-processor\src\DataPipeline.Common\src\obj\Release\netcoreapp3.1\DataPipeline.Common.dll
+C:\code\weather-event-processor\src\DataPipeline.Common\src\obj\Release\netcoreapp3.1\DataPipeline.Common.pdb

@@ -97,7 +97,7 @@ namespace BulkEvents.Tests
             };
 
             // Tell fake S3 to return to return the mock object response created above.
-            A.CallTo(() => 
+            A.CallTo(() =>
                     _fakeS3.GetObjectAsync(A<GetObjectRequest>.That.Matches(x => x.BucketName == _s3GetObjectRequest.BucketName && x.Key == _s3GetObjectRequest.Key), A<CancellationToken>._))
                 .Returns(Task.FromResult(s3ResponseWithBadData));
 

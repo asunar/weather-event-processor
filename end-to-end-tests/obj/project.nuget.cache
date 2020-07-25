@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4EQWPdGezrYA0l09GJBZN88iW0RA3Big9EyNPW82kaL99ESTikvGUOxudQWbByqyYkjglUOLwUn+RkFlXfz4EQ==",
+  "dgSpecHash": "ipU5LtjSvej7QKA6f86CfEoMfjGnN1wYhfyirM26joIOP0naXZq0P2TJNdp9xOP8F6nIHpelbNkpfvFgNNdcvQ==",
   "success": true,
-  "projectFilePath": "C:\\code\\programming-aws-lambda-dotnet\\chapter6\\end-to-end-tests\\DataPipelineTests.csproj",
+  "projectFilePath": "C:\\code\\weather-event-processor\\end-to-end-tests\\DataPipelineTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sunara\\.nuget\\packages\\awssdk.cloudformation\\3.3.106.8\\awssdk.cloudformation.3.3.106.8.nupkg.sha512",
     "C:\\Users\\sunara\\.nuget\\packages\\awssdk.cloudwatchlogs\\3.3.102.35\\awssdk.cloudwatchlogs.3.3.102.35.nupkg.sha512",

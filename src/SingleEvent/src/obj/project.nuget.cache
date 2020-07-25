@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZOn1kh3WSKY7MkOgaQvvS47nngAQDVfv+mbr673InBqe9qJQBUZIipWkrWyjewx8QuGnm4ppCf61mkTPcdCVUA==",
+  "dgSpecHash": "IMDyAjyqWhH/QdU62s8nJo/6/evt5Ev+ew0exBrRomMMzQOGWmEOaAxSHALKo9s+gMilbgrjrMYUyTBQoD2CqQ==",
   "success": true,
-  "projectFilePath": "C:\\code\\weather-processor\\src\\SingleEvent\\src\\SingleEvent.csproj",
+  "projectFilePath": "C:\\code\\weather-event-processor\\src\\SingleEvent\\src\\SingleEvent.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sunara\\.nuget\\packages\\amazon.lambda.core\\1.1.0\\amazon.lambda.core.1.1.0.nupkg.sha512",
     "C:\\Users\\sunara\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.0.1\\amazon.lambda.serialization.systemtextjson.2.0.1.nupkg.sha512",

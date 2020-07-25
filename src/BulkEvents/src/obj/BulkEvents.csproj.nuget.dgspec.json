@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\code\\weather-processor\\src\\BulkEvents\\src\\BulkEvents.csproj": {}
+    "C:\\code\\weather-event-processor\\src\\BulkEvents\\src\\BulkEvents.csproj": {}
   },
   "projects": {
-    "C:\\code\\weather-processor\\src\\BulkEvents\\src\\BulkEvents.csproj": {
+    "C:\\code\\weather-event-processor\\src\\BulkEvents\\src\\BulkEvents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\code\\weather-processor\\src\\BulkEvents\\src\\BulkEvents.csproj",
+        "projectUniqueName": "C:\\code\\weather-event-processor\\src\\BulkEvents\\src\\BulkEvents.csproj",
         "projectName": "BulkEvents",
-        "projectPath": "C:\\code\\weather-processor\\src\\BulkEvents\\src\\BulkEvents.csproj",
+        "projectPath": "C:\\code\\weather-event-processor\\src\\BulkEvents\\src\\BulkEvents.csproj",
         "packagesPath": "C:\\Users\\sunara\\.nuget\\packages\\",
-        "outputPath": "C:\\code\\weather-processor\\src\\BulkEvents\\src\\obj\\",
+        "outputPath": "C:\\code\\weather-event-processor\\src\\BulkEvents\\src\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\code\\weather-processor\\src\\DataPipeline.Common\\src\\DataPipeline.Common.csproj": {
-                "projectPath": "C:\\code\\weather-processor\\src\\DataPipeline.Common\\src\\DataPipeline.Common.csproj"
+              "C:\\code\\weather-event-processor\\src\\DataPipeline.Common\\src\\DataPipeline.Common.csproj": {
+                "projectPath": "C:\\code\\weather-event-processor\\src\\DataPipeline.Common\\src\\DataPipeline.Common.csproj"
               }
             }
           }
@@ -83,21 +83,16 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
-      },
-      "runtimes": {
-        "linux-x64": {
-          "#import": []
-        }
       }
     },
-    "C:\\code\\weather-processor\\src\\DataPipeline.Common\\src\\DataPipeline.Common.csproj": {
+    "C:\\code\\weather-event-processor\\src\\DataPipeline.Common\\src\\DataPipeline.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\code\\weather-processor\\src\\DataPipeline.Common\\src\\DataPipeline.Common.csproj",
+        "projectUniqueName": "C:\\code\\weather-event-processor\\src\\DataPipeline.Common\\src\\DataPipeline.Common.csproj",
         "projectName": "DataPipeline.Common",
-        "projectPath": "C:\\code\\weather-processor\\src\\DataPipeline.Common\\src\\DataPipeline.Common.csproj",
+        "projectPath": "C:\\code\\weather-event-processor\\src\\DataPipeline.Common\\src\\DataPipeline.Common.csproj",
         "packagesPath": "C:\\Users\\sunara\\.nuget\\packages\\",
-        "outputPath": "C:\\code\\weather-processor\\src\\DataPipeline.Common\\src\\obj\\",
+        "outputPath": "C:\\code\\weather-event-processor\\src\\DataPipeline.Common\\src\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -142,11 +137,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "linux-x64": {
-          "#import": []
         }
       }
     }

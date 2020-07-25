@@ -6193,11 +6193,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\code\\weather-processor\\end-to-end-tests\\DataPipelineTests.csproj",
+      "projectUniqueName": "C:\\code\\weather-event-processor\\end-to-end-tests\\DataPipelineTests.csproj",
       "projectName": "DataPipelineTests",
-      "projectPath": "C:\\code\\weather-processor\\end-to-end-tests\\DataPipelineTests.csproj",
+      "projectPath": "C:\\code\\weather-event-processor\\end-to-end-tests\\DataPipelineTests.csproj",
       "packagesPath": "C:\\Users\\sunara\\.nuget\\packages\\",
-      "outputPath": "C:\\code\\weather-processor\\end-to-end-tests\\obj\\",
+      "outputPath": "C:\\code\\weather-event-processor\\end-to-end-tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

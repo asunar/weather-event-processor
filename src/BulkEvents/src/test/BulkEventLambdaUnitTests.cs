@@ -40,8 +40,8 @@ namespace BulkEvents.Tests
 
             var lambda = new BulkEventsLambda(null, null, "dummy");
 
-           Action act = () => lambda.ReadWeatherEvents(mockS3Response);
-           act.Should().Throw<System.Text.Json.JsonException>();
+            Action act = () => lambda.ReadWeatherEvents(mockS3Response);
+            act.Should().Throw<System.Text.Json.JsonException>();
         }
 
     }
