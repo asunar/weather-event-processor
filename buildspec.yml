@@ -7,5 +7,3 @@ phases:
   build:
     commands:
       - dotnet build
-      - sam validate  
-      - sam build
