@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C5CD10A3-9602-4535-B0A5-34DED4514F67}"
+	ProjectSection(SolutionItems) = preProject
+		samconfig.toml = samconfig.toml
+		src\SingleEvent\src\SingleEvent.csproj = src\SingleEvent\src\SingleEvent.csproj
+		template.yaml = template.yaml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulkEvents", "src\BulkEvents\src\BulkEvents.csproj", "{C0D64CB9-34AC-4D96-8D41-E0E8C17C90E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulkEvents.Tests", "src\BulkEvents\src\test\BulkEvents.Tests.csproj", "{8DCEF28C-F651-4FDE-AF21-873A527DDF1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataPipeline.Common", "src\DataPipeline.Common\src\DataPipeline.Common.csproj", "{9926FEAC-6F48-4AE1-A9CF-0EB1F4F62DFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleEvent", "src\SingleEvent\src\SingleEvent.csproj", "{6117FF72-872A-4A3E-84B9-1333DE19F13E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataPipelineTests", "end-to-end-tests\DataPipelineTests.csproj", "{C036DFCE-322D-42D1-BA1F-BD3F05E99D39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0D64CB9-34AC-4D96-8D41-E0E8C17C90E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D64CB9-34AC-4D96-8D41-E0E8C17C90E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D64CB9-34AC-4D96-8D41-E0E8C17C90E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D64CB9-34AC-4D96-8D41-E0E8C17C90E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DCEF28C-F651-4FDE-AF21-873A527DDF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DCEF28C-F651-4FDE-AF21-873A527DDF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DCEF28C-F651-4FDE-AF21-873A527DDF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DCEF28C-F651-4FDE-AF21-873A527DDF1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9926FEAC-6F48-4AE1-A9CF-0EB1F4F62DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9926FEAC-6F48-4AE1-A9CF-0EB1F4F62DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9926FEAC-6F48-4AE1-A9CF-0EB1F4F62DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9926FEAC-6F48-4AE1-A9CF-0EB1F4F62DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6117FF72-872A-4A3E-84B9-1333DE19F13E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6117FF72-872A-4A3E-84B9-1333DE19F13E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6117FF72-872A-4A3E-84B9-1333DE19F13E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6117FF72-872A-4A3E-84B9-1333DE19F13E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C036DFCE-322D-42D1-BA1F-BD3F05E99D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C036DFCE-322D-42D1-BA1F-BD3F05E99D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C036DFCE-322D-42D1-BA1F-BD3F05E99D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C036DFCE-322D-42D1-BA1F-BD3F05E99D39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F4535F4-BD41-4116-9BB3-A292E2EB6971}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+[
+	{
+		"LocationName":"New York, NY E2E Test", 
+		"Temperature":91, 
+		"Timestamp":1564428897, 
+		"Latitude": 40.70, 
+		"Longitude": -73.99
+	},
+	{
+		"LocationName":"Manchester, UK E2E Test", 
+		"Temperature":64, 
+		"Timestamp":1564428898, 
+		"Latitude": 51.75, 
+		"Longitude": -1.25
+	},
+	{
+		"LocationName":"Arlington, VA E2E Test", 
+		"Temperature":87, 
+		"Timestamp":1564428899, 
+		"Latitude": 38.02, 
+		"Longitude": -78.47
+	}
+]

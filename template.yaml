@@ -1,0 +1,49 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: chapter6-data-pipeline
+
+# More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
+Globals:
+  Function:
+    Runtime: dotnetcore3.1
+    Timeout: 10
+
+Resources:
+  PipelineStartBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub ${AWS::StackName}-${AWS::AccountId}-${AWS::Region}-start
+
+  FanOutTopic:
+    Type: AWS::SNS::Topic
+
+  BulkEventsLambda:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      CodeUri: ./src/BulkEvents/src/
+      Handler: BulkEvents::BulkEvents.BulkEventsLambda::S3EventHandler
+      Environment: # More info about Env Vars: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#environment-object
+        Variables:
+          FAN_OUT_TOPIC: !Ref FanOutTopic
+      Policies:
+       - S3ReadPolicy:
+           BucketName: !Sub ${AWS::StackName}-${AWS::AccountId}-${AWS::Region}-start 
+       - SNSPublishMessagePolicy:
+           TopicName: !GetAtt FanOutTopic.TopicName
+      Events:
+        S3Event:
+          Type: S3 # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
+          Properties:
+            Bucket: !Ref PipelineStartBucket
+            Events: s3:ObjectCreated:*
+
+  SingleEventLambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ./src/SingleEvent/src
+      Handler: SingleEvent::SingleEvent.SingleEventLambda::SnsEventHandler
+      Events:
+        SnsEvent:
+          Type: SNS
+          Properties:
+            Topic: !Ref FanOutTopic

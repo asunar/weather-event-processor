@@ -1,0 +1,142 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BulkEvents/1.0.0": {
+        "dependencies": {
+          "AWSSDK.S3": "3.3.111.21",
+          "AWSSDK.SimpleNotificationService": "3.3.101.192",
+          "Amazon.Lambda.S3Events": "1.1.0",
+          "Amazon.Lambda.Serialization.SystemTextJson": "2.0.1",
+          "DataPipeline.Common": "1.0.0"
+        },
+        "runtime": {
+          "BulkEvents.dll": {}
+        }
+      },
+      "Amazon.Lambda.Core/1.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.S3Events/1.1.0": {
+        "dependencies": {
+          "AWSSDK.S3": "3.3.111.21"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.S3Events.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.0.1": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "1.1.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "AWSSDK.Core/3.3.107.20": {
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.107.20"
+          }
+        }
+      },
+      "AWSSDK.S3/3.3.111.21": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.107.20"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.111.21"
+          }
+        }
+      },
+      "AWSSDK.SimpleNotificationService/3.3.101.192": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.107.20"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.SimpleNotificationService.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.101.192"
+          }
+        }
+      },
+      "DataPipeline.Common/1.0.0": {
+        "runtime": {
+          "DataPipeline.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BulkEvents/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Lambda.Core/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ueGId8b4DEHoVWkHDs3iAJH8IUSAUGu5AqkoI/Syl4RuByzik7lz9IjoImiGAlGhtsQV02MHNeTo04IFjS37gQ==",
+      "path": "amazon.lambda.core/1.1.0",
+      "hashPath": "amazon.lambda.core.1.1.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.S3Events/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GIN+MTDPlxoyjn14zRQy9jQCEb15+/ZEJ28g/YSj4+X1Uq5CIs4C13mRdE3iShtAynxNl7IhwrXR7NzJRuDPwQ==",
+      "path": "amazon.lambda.s3events/1.1.0",
+      "hashPath": "amazon.lambda.s3events.1.1.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WPtMxw5jwEcVbe0Ro/bF0VDnict/zoCW0r6dfRIIOthjO+fVMgDyGYa4Pkz6ptgCCFcnhQuOq6iebYw1LRZeIQ==",
+      "path": "amazon.lambda.serialization.systemtextjson/2.0.1",
+      "hashPath": "amazon.lambda.serialization.systemtextjson.2.0.1.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.3.107.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oLGgv5mtIddHwEEIw4Q0PnkgYLY+NIokPgMs19E7BPxdhrL3ePuaT+mublGGc0e3xuwjWSxWDjYChYYo8/CQGQ==",
+      "path": "awssdk.core/3.3.107.20",
+      "hashPath": "awssdk.core.3.3.107.20.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.3.111.21": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xjO2Z9iaK6N6g5benPX7OqHBjs4IjRTf6/rwA0AzN2boj15QDWSdQt7jl3nld0LsSBafudU16mUVdOIzymuMIQ==",
+      "path": "awssdk.s3/3.3.111.21",
+      "hashPath": "awssdk.s3.3.3.111.21.nupkg.sha512"
+    },
+    "AWSSDK.SimpleNotificationService/3.3.101.192": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UC+sQ7nbUzmCqRZYhm6YbB37N1vLVlFjfdm+ZVCi5n+TlXyJoZbKXKyBsymFZgeUk2v2L5mMb1Z1KQ33l5+IBw==",
+      "path": "awssdk.simplenotificationservice/3.3.101.192",
+      "hashPath": "awssdk.simplenotificationservice.3.3.101.192.nupkg.sha512"
+    },
+    "DataPipeline.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

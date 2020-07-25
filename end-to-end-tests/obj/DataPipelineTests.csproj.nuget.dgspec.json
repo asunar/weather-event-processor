@@ -1,0 +1,103 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\code\\weather-processor\\end-to-end-tests\\DataPipelineTests.csproj": {}
+  },
+  "projects": {
+    "C:\\code\\weather-processor\\end-to-end-tests\\DataPipelineTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\code\\weather-processor\\end-to-end-tests\\DataPipelineTests.csproj",
+        "projectName": "DataPipelineTests",
+        "projectPath": "C:\\code\\weather-processor\\end-to-end-tests\\DataPipelineTests.csproj",
+        "packagesPath": "C:\\Users\\sunara\\.nuget\\packages\\",
+        "outputPath": "C:\\code\\weather-processor\\end-to-end-tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sunara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AWSSDK.CloudFormation": {
+              "target": "Package",
+              "version": "[3.3.106.8, )"
+            },
+            "AWSSDK.CloudWatchLogs": {
+              "target": "Package",
+              "version": "[3.3.102.35, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.3.111.21, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.6.1, )"
+            },
+            "NetEscapades.Configuration.Yaml": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
