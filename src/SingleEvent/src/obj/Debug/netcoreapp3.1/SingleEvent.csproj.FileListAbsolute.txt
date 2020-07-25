@@ -20,3 +20,15 @@ C:\code\weather-processor\src\SingleEvent\src\obj\Debug\netcoreapp3.1\SingleEven
 C:\code\weather-processor\src\SingleEvent\src\obj\Debug\netcoreapp3.1\SingleEvent.csproj.CopyComplete
 C:\code\weather-processor\src\SingleEvent\src\obj\Debug\netcoreapp3.1\SingleEvent.dll
 C:\code\weather-processor\src\SingleEvent\src\obj\Debug\netcoreapp3.1\SingleEvent.pdb
+C:\code\weather-event-processor\src\SingleEvent\src\bin\Debug\netcoreapp3.1\SingleEvent.deps.json
+C:\code\weather-event-processor\src\SingleEvent\src\bin\Debug\netcoreapp3.1\SingleEvent.dll
+C:\code\weather-event-processor\src\SingleEvent\src\bin\Debug\netcoreapp3.1\SingleEvent.pdb
+C:\code\weather-event-processor\src\SingleEvent\src\bin\Debug\netcoreapp3.1\DataPipeline.Common.dll
+C:\code\weather-event-processor\src\SingleEvent\src\bin\Debug\netcoreapp3.1\DataPipeline.Common.pdb
+C:\code\weather-event-processor\src\SingleEvent\src\obj\Debug\netcoreapp3.1\SingleEvent.csprojAssemblyReference.cache
+C:\code\weather-event-processor\src\SingleEvent\src\obj\Debug\netcoreapp3.1\SingleEvent.csproj.CoreCompileInputs.cache
+C:\code\weather-event-processor\src\SingleEvent\src\obj\Debug\netcoreapp3.1\SingleEvent.AssemblyInfoInputs.cache
+C:\code\weather-event-processor\src\SingleEvent\src\obj\Debug\netcoreapp3.1\SingleEvent.AssemblyInfo.cs
+C:\code\weather-event-processor\src\SingleEvent\src\obj\Debug\netcoreapp3.1\SingleEvent.csproj.CopyComplete
+C:\code\weather-event-processor\src\SingleEvent\src\obj\Debug\netcoreapp3.1\SingleEvent.dll
+C:\code\weather-event-processor\src\SingleEvent\src\obj\Debug\netcoreapp3.1\SingleEvent.pdb

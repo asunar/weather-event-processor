@@ -4,9 +4,9 @@ phases:
   pre_build:
     commands:
       - dotnet clean
-      - dotnet restore
+      - dotnet build
   build:
     commands:
       # dotnet test command builds the solution and runs a test host application for each test project in the solution.
       # You don't have to run dotnet restore because it's run implicitly by dotnet test
-      - dotnet test -c Release
+      - dotnet test -c Release --no-restore
