@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+Nzo4QOCOYNGW9mHd6iX3x96nS5SW4mWtXp/25SdpZnMjT1/3Xu2a60OsMccqmqxWhnk80bfKZj1Ru+2Ap6LWA==",
+  "dgSpecHash": "bp0sUprcqGnhvidVBn2gBiDUd2EO8sSMrGhOwrAkQHh1t4CtpSTCUaSQO5BG4LTHIiu8/sOK5eY643mzlUij6Q==",
   "success": true,
   "projectFilePath": "C:\\code\\weather-event-processor\\src\\DataPipeline.Common\\src\\DataPipeline.Common.csproj",
   "expectedPackageFiles": [],

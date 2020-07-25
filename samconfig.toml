@@ -2,9 +2,9 @@ version = 0.1
 [default]
 [default.deploy]
 [default.deploy.parameters]
-stack_name = "chapter6-data-pipeline"
+stack_name = "weather-event-processor"
 s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-oztwdx5e9lhd"
-s3_prefix = "chapter6-data-pipeline"
+s3_prefix = "weather-event-processor"
 region = "us-east-1"
 confirm_changeset = true
 capabilities = "CAPABILITY_IAM"

@@ -31,3 +31,6 @@ C:\code\weather-event-processor\src\DataPipeline.Common\src\obj\Release\netcorea
 C:\code\weather-event-processor\src\DataPipeline.Common\src\obj\Release\netcoreapp3.1\DataPipeline.Common.AssemblyInfo.cs
 C:\code\weather-event-processor\src\DataPipeline.Common\src\obj\Release\netcoreapp3.1\DataPipeline.Common.dll
 C:\code\weather-event-processor\src\DataPipeline.Common\src\obj\Release\netcoreapp3.1\DataPipeline.Common.pdb
+C:\code\weather-event-processor\src\DataPipeline.Common\src\bin\Release\netcoreapp3.1\DataPipeline.Common.runtimeconfig.json
+C:\code\weather-event-processor\src\DataPipeline.Common\src\bin\Release\netcoreapp3.1\DataPipeline.Common.runtimeconfig.dev.json
+C:\code\weather-event-processor\src\DataPipeline.Common\src\obj\Release\netcoreapp3.1\DataPipeline.Common.genruntimeconfig.cache

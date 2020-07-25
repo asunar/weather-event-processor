@@ -68,7 +68,7 @@ namespace DataPipelineTests
             return $"/aws/lambda/{lambdaName}";
         }
 
-        [Fact(Skip = "TODO: Fix permissions then enable")]
+        [Fact/*(Skip = "TODO: Fix permissions then enable")*/]
         public void DataPipelineEndtoEndTest()
         {
             string bucketName = ResolvePhysicalId("PipelineStartBucket");

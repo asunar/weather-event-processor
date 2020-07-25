@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IMDyAjyqWhH/QdU62s8nJo/6/evt5Ev+ew0exBrRomMMzQOGWmEOaAxSHALKo9s+gMilbgrjrMYUyTBQoD2CqQ==",
+  "dgSpecHash": "ywF2aVulmX/ciOzja6BM4YXBeljLDq+kDgTCURp2c63YJ29KJB9HPC/O4bgQxa9KzNhn9PepChQRNw/32IRI7g==",
   "success": true,
   "projectFilePath": "C:\\code\\weather-event-processor\\src\\SingleEvent\\src\\SingleEvent.csproj",
   "expectedPackageFiles": [
